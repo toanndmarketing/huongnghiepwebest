@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "userId": 1,
+      "expertId": 1,
+      "packageType": "basic",
+      "price": 199000,
+      "status": "completed",
+      "appointmentDate": "2023-02-10T15:00:00Z",
+      "notes": "Cần tư vấn về định hướng công nghệ thông tin và các kỹ năng cần thiết.",
+      "createdAt": "2023-02-05T09:30:00Z",
+      "expert": {
+        "id": 1,
+        "name": "Nguyễn Văn A",
+        "title": "Chuyên gia Tâm lý học",
+        "experience": "10 năm kinh nghiệm",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+        "description": "Tiến sĩ Tâm lý học với hơn 10 năm kinh nghiệm trong lĩnh vực tư vấn hướng nghiệp.",
+        "specialties": ["Tâm lý hướng nghiệp", "Đánh giá năng lực", "Tư vấn phát triển sự nghiệp"],
+        "rating": 4.8,
+        "consultationsCount": 1248
+      }
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "expertId": 3,
+      "packageType": "premium",
+      "price": 499000,
+      "status": "scheduled",
+      "appointmentDate": "2023-04-15T14:30:00Z",
+      "notes": "Muốn được hướng dẫn chi tiết về cách chuẩn bị hồ sơ xin việc và kỹ năng phỏng vấn.",
+      "createdAt": "2023-04-01T10:15:00Z",
+      "expert": {
+        "id": 3,
+        "name": "Lê Văn C",
+        "title": "Chuyên gia Nhân sự & Tuyển dụng",
+        "experience": "15 năm kinh nghiệm",
+        "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+        "description": "Chuyên gia nhân sự cấp cao với hơn 15 năm kinh nghiệm làm việc tại các tập đoàn đa quốc gia.",
+        "specialties": ["Xu hướng thị trường lao động", "Phát triển CV", "Đàm phán lương", "Định hướng sự nghiệp"],
+        "rating": 4.9,
+        "consultationsCount": 1572
+      }
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "expertId": 2,
+      "packageType": "basic",
+      "price": 199000,
+      "status": "cancelled",
+      "appointmentDate": "2023-03-20T10:00:00Z",
+      "notes": "Cần tư vấn về các trường đại học và ngành học phù hợp.",
+      "createdAt": "2023-03-10T14:20:00Z",
+      "expert": {
+        "id": 2,
+        "name": "Trần Thị B",
+        "title": "Chuyên gia Hướng nghiệp",
+        "experience": "8 năm kinh nghiệm",
+        "avatar": "https://randomuser.me/api/portraits/women/28.jpg",
+        "description": "Thạc sĩ Giáo dục học với chuyên môn về hướng nghiệp.",
+        "specialties": ["Tư vấn hướng nghiệp cho học sinh", "Phân tích nghề nghiệp", "Kỹ năng phỏng vấn"],
+        "rating": 4.7,
+        "consultationsCount": 956
+      }
+    }
+  ]
+} 

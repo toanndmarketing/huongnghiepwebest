@@ -1,0 +1,80 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "userId": 1,
+      "careerId": 1,
+      "notes": "Ngành này phù hợp với khả năng lập trình và tư duy logic của tôi.",
+      "compatibility": 85,
+      "savedAt": "2023-03-10T08:15:00Z",
+      "career": {
+        "id": 1,
+        "name": "Kỹ sư phần mềm",
+        "category": "Công nghệ thông tin",
+        "description": "Thiết kế, phát triển và bảo trì phần mềm máy tính, ứng dụng di động và hệ thống máy tính khác.",
+        "skills": ["Lập trình", "Giải quyết vấn đề", "Tư duy logic", "Làm việc nhóm"]
+      }
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "careerId": 11,
+      "notes": "Tôi rất quan tâm đến lĩnh vực AI và muốn tìm hiểu thêm về nó.",
+      "compatibility": 78,
+      "savedAt": "2023-03-15T14:30:00Z",
+      "career": {
+        "id": 11,
+        "name": "Kỹ sư AI",
+        "category": "Công nghệ thông tin",
+        "description": "Phát triển các giải pháp và ứng dụng trí tuệ nhân tạo, xây dựng và huấn luyện các mô hình học máy.",
+        "skills": ["Machine Learning", "Python", "Phân tích dữ liệu", "Toán học"]
+      }
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "careerId": 2,
+      "notes": "Đây là ngành kết hợp giữa công nghệ và thiết kế, phù hợp với sở thích của tôi.",
+      "compatibility": 72,
+      "savedAt": "2023-03-20T10:45:00Z",
+      "career": {
+        "id": 2,
+        "name": "Nhà thiết kế UX/UI",
+        "category": "Thiết kế & Sáng tạo",
+        "description": "Thiết kế giao diện người dùng và trải nghiệm người dùng cho các ứng dụng, trang web và sản phẩm số.",
+        "skills": ["Thiết kế đồ họa", "Nghiên cứu người dùng", "Tư duy thiết kế", "Sáng tạo"]
+      }
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "careerId": 4,
+      "notes": "Tôi thích làm việc với dữ liệu lớn và phân tích thông tin để tìm ra insights.",
+      "compatibility": 80,
+      "savedAt": "2023-04-05T09:20:00Z",
+      "career": {
+        "id": 4,
+        "name": "Kỹ sư dữ liệu",
+        "category": "Công nghệ thông tin",
+        "description": "Thiết kế, xây dựng và quản lý hệ thống lưu trữ và xử lý dữ liệu quy mô lớn.",
+        "skills": ["SQL", "Python", "Xử lý dữ liệu lớn", "Phân tích dữ liệu"]
+      }
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "careerId": 3,
+      "notes": "Marketing số là lĩnh vực đang phát triển mạnh, tôi muốn kết hợp sáng tạo và phân tích.",
+      "compatibility": 68,
+      "savedAt": "2023-04-10T16:05:00Z",
+      "career": {
+        "id": 3,
+        "name": "Chuyên viên Marketing số",
+        "category": "Marketing & Truyền thông",
+        "description": "Lập kế hoạch, thực hiện và phân tích các chiến dịch marketing trên các kênh số.",
+        "skills": ["Phân tích dữ liệu", "Sáng tạo nội dung", "Quản lý mạng xã hội", "SEO/SEM"]
+      }
+    }
+  ]
+} 

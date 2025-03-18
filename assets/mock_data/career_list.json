@@ -1,0 +1,245 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "Kỹ sư phần mềm",
+      "category": "Công nghệ thông tin",
+      "description": "Thiết kế, phát triển và bảo trì phần mềm máy tính, ứng dụng di động và hệ thống máy tính khác.",
+      "skills": ["Lập trình", "Giải quyết vấn đề", "Tư duy logic", "Làm việc nhóm"],
+      "education": ["Cử nhân Khoa học Máy tính", "Kỹ sư Phần mềm"],
+      "salary": {
+        "min": 15000000,
+        "max": 50000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Tăng trưởng mạnh mẽ trong 10 năm tới với nhu cầu cao về nhân lực trong ngành.",
+      "workEnvironment": "Làm việc tại văn phòng hoặc từ xa, thường trong môi trường năng động, sáng tạo."
+    },
+    {
+      "id": 2,
+      "name": "Nhà thiết kế UX/UI",
+      "category": "Thiết kế & Sáng tạo",
+      "description": "Thiết kế giao diện người dùng và trải nghiệm người dùng cho các ứng dụng, trang web và sản phẩm số.",
+      "skills": ["Thiết kế đồ họa", "Nghiên cứu người dùng", "Tư duy thiết kế", "Sáng tạo"],
+      "education": ["Cử nhân Thiết kế", "Cử nhân Mỹ thuật Ứng dụng"],
+      "salary": {
+        "min": 12000000,
+        "max": 40000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Nhu cầu tăng cao cùng với sự phát triển của các sản phẩm số.",
+      "workEnvironment": "Làm việc tại các công ty thiết kế, studio, công ty công nghệ hoặc tự do."
+    },
+    {
+      "id": 3,
+      "name": "Chuyên viên Marketing số",
+      "category": "Marketing & Truyền thông",
+      "description": "Lập kế hoạch, thực hiện và phân tích các chiến dịch marketing trên các kênh số.",
+      "skills": ["Phân tích dữ liệu", "Sáng tạo nội dung", "Quản lý mạng xã hội", "SEO/SEM"],
+      "education": ["Cử nhân Marketing", "Cử nhân Truyền thông"],
+      "salary": {
+        "min": 10000000,
+        "max": 35000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Tăng trưởng nhanh với xu hướng chuyển đổi số của các doanh nghiệp.",
+      "workEnvironment": "Môi trường năng động, thường xuyên cập nhật xu hướng mới."
+    },
+    {
+      "id": 4,
+      "name": "Kỹ sư dữ liệu",
+      "category": "Công nghệ thông tin",
+      "description": "Thiết kế, xây dựng và quản lý hệ thống lưu trữ và xử lý dữ liệu quy mô lớn.",
+      "skills": ["SQL", "Python", "Xử lý dữ liệu lớn", "Phân tích dữ liệu"],
+      "education": ["Cử nhân Khoa học Dữ liệu", "Cử nhân Khoa học Máy tính"],
+      "salary": {
+        "min": 18000000,
+        "max": 60000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Nhu cầu rất cao do sự bùng nổ của dữ liệu trong mọi ngành công nghiệp.",
+      "workEnvironment": "Làm việc trong các công ty công nghệ, ngân hàng, tài chính hoặc tổ chức lớn."
+    },
+    {
+      "id": 5,
+      "name": "Kế toán viên",
+      "category": "Tài chính & Kế toán",
+      "description": "Quản lý sổ sách tài chính, chuẩn bị báo cáo tài chính và đảm bảo tuân thủ quy định kế toán.",
+      "skills": ["Phân tích tài chính", "Kỹ năng số học", "Tỉ mỉ", "Quản lý thời gian"],
+      "education": ["Cử nhân Kế toán", "Cử nhân Tài chính"],
+      "salary": {
+        "min": 8000000,
+        "max": 30000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Ổn định với nhu cầu liên tục từ mọi loại hình doanh nghiệp.",
+      "workEnvironment": "Môi trường văn phòng chuyên nghiệp, thường làm việc với các hạn chót."
+    },
+    {
+      "id": 6,
+      "name": "Giáo viên",
+      "category": "Giáo dục & Đào tạo",
+      "description": "Giảng dạy và hướng dẫn học sinh, phát triển giáo trình và đánh giá tiến độ học tập.",
+      "skills": ["Giao tiếp", "Kiên nhẫn", "Sáng tạo", "Tổ chức"],
+      "education": ["Cử nhân Sư phạm", "Thạc sĩ Giáo dục"],
+      "salary": {
+        "min": 7000000,
+        "max": 25000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Nhu cầu ổn định với xu hướng nâng cao chất lượng giáo dục.",
+      "workEnvironment": "Làm việc tại trường học, trung tâm giáo dục hoặc dạy trực tuyến."
+    },
+    {
+      "id": 7,
+      "name": "Bác sĩ",
+      "category": "Y tế & Chăm sóc sức khỏe",
+      "description": "Chẩn đoán, điều trị bệnh và tư vấn cho bệnh nhân về sức khỏe và phòng ngừa bệnh tật.",
+      "skills": ["Chẩn đoán", "Giao tiếp", "Ra quyết định", "Đồng cảm"],
+      "education": ["Bác sĩ Y khoa", "Chuyên khoa"],
+      "salary": {
+        "min": 20000000,
+        "max": 100000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Nhu cầu cao và ổn định, đặc biệt trong bối cảnh dân số già hóa và quan tâm nhiều hơn đến sức khỏe.",
+      "workEnvironment": "Bệnh viện, phòng khám tư nhân, cơ sở y tế công cộng."
+    },
+    {
+      "id": 8,
+      "name": "Kiến trúc sư",
+      "category": "Xây dựng & Thiết kế",
+      "description": "Thiết kế nhà ở, tòa nhà thương mại và các công trình khác, kết hợp thẩm mỹ và chức năng.",
+      "skills": ["Thiết kế", "Sáng tạo", "Kỹ thuật", "Tư duy không gian"],
+      "education": ["Cử nhân Kiến trúc", "Thạc sĩ Kiến trúc"],
+      "salary": {
+        "min": 15000000,
+        "max": 60000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Triển vọng tốt cùng với sự phát triển của ngành xây dựng và bất động sản.",
+      "workEnvironment": "Công ty thiết kế, tư vấn kiến trúc, hoặc tự kinh doanh."
+    },
+    {
+      "id": 9,
+      "name": "Chuyên viên nhân sự",
+      "category": "Nhân sự & Tuyển dụng",
+      "description": "Tuyển dụng, đào tạo và phát triển nhân viên, quản lý chính sách nhân sự và văn hóa công ty.",
+      "skills": ["Giao tiếp", "Đánh giá", "Tổ chức", "Giải quyết xung đột"],
+      "education": ["Cử nhân Quản trị Nhân sự", "Cử nhân Tâm lý học"],
+      "salary": {
+        "min": 9000000,
+        "max": 35000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Triển vọng tốt với vai trò ngày càng quan trọng trong phát triển tổ chức.",
+      "workEnvironment": "Làm việc tại phòng nhân sự của các công ty, tổ chức."
+    },
+    {
+      "id": 10,
+      "name": "Chuyên viên phân tích tài chính",
+      "category": "Tài chính & Kế toán",
+      "description": "Phân tích dữ liệu tài chính, đánh giá hiệu suất đầu tư và đưa ra khuyến nghị tài chính.",
+      "skills": ["Phân tích số liệu", "Mô hình hóa tài chính", "Nghiên cứu", "Ra quyết định"],
+      "education": ["Cử nhân Tài chính", "Thạc sĩ Quản trị Kinh doanh"],
+      "salary": {
+        "min": 15000000,
+        "max": 50000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Nhu cầu cao trong các ngân hàng, công ty chứng khoán và quỹ đầu tư.",
+      "workEnvironment": "Môi trường áp lực cao, thường làm việc với các phân tích phức tạp và hạn chót."
+    },
+    {
+      "id": 11,
+      "name": "Kỹ sư AI",
+      "category": "Công nghệ thông tin",
+      "description": "Phát triển các giải pháp và ứng dụng trí tuệ nhân tạo, xây dựng và huấn luyện các mô hình học máy.",
+      "skills": ["Machine Learning", "Python", "Phân tích dữ liệu", "Toán học"],
+      "education": ["Thạc sĩ Khoa học Máy tính", "Tiến sĩ AI"],
+      "salary": {
+        "min": 25000000,
+        "max": 80000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Tăng trưởng nhanh chóng với sự phát triển của AI trong mọi lĩnh vực.",
+      "workEnvironment": "Công ty công nghệ, trung tâm nghiên cứu, startup AI."
+    },
+    {
+      "id": 12,
+      "name": "Luật sư",
+      "category": "Luật & Tư vấn pháp lý",
+      "description": "Cung cấp tư vấn pháp lý, đại diện cho khách hàng trong các vụ kiện và soạn thảo các văn bản pháp lý.",
+      "skills": ["Phân tích", "Giao tiếp", "Đàm phán", "Nghiên cứu"],
+      "education": ["Cử nhân Luật", "Thạc sĩ Luật"],
+      "salary": {
+        "min": 15000000,
+        "max": 70000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Nhu cầu ổn định với vai trò quan trọng trong hệ thống pháp luật và kinh doanh.",
+      "workEnvironment": "Văn phòng luật, công ty tư vấn, tòa án hoặc doanh nghiệp."
+    },
+    {
+      "id": 13,
+      "name": "Nhà quản lý dự án",
+      "category": "Quản lý & Điều hành",
+      "description": "Lập kế hoạch, thực hiện và giám sát các dự án, đảm bảo hoàn thành đúng thời hạn và ngân sách.",
+      "skills": ["Tổ chức", "Lãnh đạo", "Quản lý thời gian", "Giải quyết vấn đề"],
+      "education": ["Cử nhân Quản trị Kinh doanh", "Chứng chỉ PMP"],
+      "salary": {
+        "min": 15000000,
+        "max": 50000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Nhu cầu cao trong nhiều ngành công nghiệp với xu hướng làm việc theo dự án.",
+      "workEnvironment": "Có thể làm việc trong nhiều ngành khác nhau, từ xây dựng đến CNTT, thường xuyên phối hợp với nhiều bên liên quan."
+    },
+    {
+      "id": 14,
+      "name": "Kỹ sư cơ khí",
+      "category": "Kỹ thuật & Sản xuất",
+      "description": "Thiết kế, phát triển và thử nghiệm các thiết bị cơ khí, máy móc và hệ thống.",
+      "skills": ["Thiết kế kỹ thuật", "Phân tích kết cấu", "CAD/CAM", "Giải quyết vấn đề"],
+      "education": ["Cử nhân Kỹ thuật Cơ khí", "Kỹ sư Cơ khí"],
+      "salary": {
+        "min": 12000000,
+        "max": 45000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Triển vọng tốt trong các ngành sản xuất, ô tô, hàng không và năng lượng.",
+      "workEnvironment": "Làm việc trong nhà máy, văn phòng thiết kế hoặc phòng thí nghiệm."
+    },
+    {
+      "id": 15,
+      "name": "Chuyên gia dinh dưỡng",
+      "category": "Y tế & Chăm sóc sức khỏe",
+      "description": "Tư vấn về chế độ ăn uống, lập kế hoạch dinh dưỡng và giúp cải thiện sức khỏe thông qua thực phẩm.",
+      "skills": ["Tư vấn", "Kiến thức về dinh dưỡng", "Phân tích chế độ ăn", "Giao tiếp"],
+      "education": ["Cử nhân Dinh dưỡng", "Thạc sĩ Khoa học Thực phẩm"],
+      "salary": {
+        "min": 8000000,
+        "max": 30000000,
+        "currency": "VND",
+        "period": "monthly"
+      },
+      "outlook": "Nhu cầu tăng cao với xu hướng chú trọng sức khỏe và lối sống lành mạnh.",
+      "workEnvironment": "Bệnh viện, phòng khám, trung tâm thể dục thể thao hoặc tư vấn tự do."
+    }
+  ]
+} 

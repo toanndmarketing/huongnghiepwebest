@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "question": "Bạn đang học cấp mấy?",
+      "type": "multipleChoice",
+      "options": ["Cấp 2", "Cấp 3", "Đại học", "Đã đi làm", "Khác"],
+      "isRequired": true
+    },
+    {
+      "id": 2,
+      "question": "Môn học yêu thích nhất của bạn là gì?",
+      "type": "text",
+      "isRequired": true
+    },
+    {
+      "id": 3,
+      "question": "Bạn thích làm gì trong thời gian rảnh?",
+      "type": "checkbox",
+      "options": ["Đọc sách", "Chơi thể thao", "Xem phim", "Nghe nhạc", "Viết lách", "Lập trình", "Nấu ăn", "Vẽ", "Khác"],
+      "isRequired": true
+    },
+    {
+      "id": 4,
+      "question": "Bạn tự đánh giá điểm mạnh của mình là gì?",
+      "type": "checkbox",
+      "options": ["Giao tiếp", "Tư duy logic", "Sáng tạo", "Khả năng lãnh đạo", "Làm việc nhóm", "Tổ chức", "Giải quyết vấn đề", "Khả năng phân tích", "Kiên nhẫn", "Tỉ mỉ"],
+      "isRequired": true
+    },
+    {
+      "id": 5,
+      "question": "Bạn muốn làm nghề gì trong tương lai?",
+      "type": "text",
+      "isRequired": true
+    },
+    {
+      "id": 6,
+      "question": "Bạn giỏi nhất ở lĩnh vực nào?",
+      "type": "multipleChoice",
+      "options": ["Khoa học tự nhiên", "Khoa học xã hội", "Nghệ thuật", "Thể thao", "Công nghệ", "Kinh doanh", "Ngôn ngữ", "Y tế"],
+      "isRequired": true
+    },
+    {
+      "id": 7,
+      "question": "Bạn cần cải thiện kỹ năng nào nhất?",
+      "type": "checkbox",
+      "options": ["Giao tiếp", "Ngoại ngữ", "Kỹ năng máy tính", "Quản lý thời gian", "Làm việc nhóm", "Thuyết trình", "Tư duy phản biện", "Sáng tạo"],
+      "isRequired": true
+    },
+    {
+      "id": 8,
+      "question": "Bạn thích làm việc trong môi trường như thế nào?",
+      "type": "multipleChoice",
+      "options": ["Môi trường năng động", "Môi trường yên tĩnh", "Làm việc độc lập", "Làm việc nhóm", "Môi trường công sở", "Làm việc tự do"],
+      "isRequired": true
+    },
+    {
+      "id": 9,
+      "question": "Bạn ưu tiên điều gì trong công việc tương lai?",
+      "type": "checkbox",
+      "options": ["Thu nhập cao", "Cân bằng công việc - cuộc sống", "Cơ hội thăng tiến", "Môi trường làm việc tốt", "Công việc ổn định", "Công việc có ý nghĩa xã hội", "Được đi nhiều nơi"],
+      "isRequired": true
+    },
+    {
+      "id": 10,
+      "question": "Bạn có kế hoạch gì cho việc học tập và phát triển sự nghiệp?",
+      "type": "text",
+      "isRequired": false
+    }
+  ]
+} 

@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "Gói Cơ bản",
+      "description": "Gói tư vấn cơ bản với các tính năng thiết yếu để giúp bạn hiểu rõ hơn về định hướng nghề nghiệp.",
+      "price": 199000,
+      "features": [
+        "Tư vấn qua chat",
+        "Phân tích sơ bộ",
+        "Gợi ý nghề nghiệp",
+        "Báo cáo tóm tắt"
+      ],
+      "durationMinutes": 30
+    },
+    {
+      "id": 2,
+      "name": "Gói Chuyên sâu",
+      "description": "Gói tư vấn chuyên sâu với các tính năng nâng cao và sự hỗ trợ toàn diện từ các chuyên gia.",
+      "price": 499000,
+      "features": [
+        "Tư vấn trực tiếp 1-1",
+        "Phân tích chi tiết",
+        "Lộ trình phát triển",
+        "Báo cáo chuyên sâu",
+        "Hỗ trợ theo dõi 30 ngày"
+      ],
+      "durationMinutes": 60
+    },
+    {
+      "id": 3,
+      "name": "Gói Toàn diện",
+      "description": "Gói tư vấn toàn diện với trải nghiệm tư vấn cao cấp và lộ trình phát triển cá nhân hóa.",
+      "price": 999000,
+      "features": [
+        "Tư vấn trực tiếp với chuyên gia hàng đầu",
+        "Phân tích toàn diện",
+        "Lộ trình phát triển chi tiết",
+        "Báo cáo chuyên sâu",
+        "Tư vấn hỗ trợ 60 ngày",
+        "Giới thiệu cơ hội thực tập/việc làm"
+      ],
+      "durationMinutes": 90
+    }
+  ]
+} 

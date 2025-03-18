@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Phân tích số học hoàn tất",
+      "message": "Phân tích số học của bạn đã hoàn tất. Hãy xem kết quả ngay bây giờ để khám phá các nghề nghiệp phù hợp!",
+      "type": "analysis_completed",
+      "isRead": true,
+      "createdAt": "2023-03-05T08:30:00Z",
+      "actionUrl": "/analysis/numerology"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Nhắc nhở cuộc hẹn tư vấn",
+      "message": "Bạn có cuộc hẹn tư vấn với chuyên gia Lê Văn C vào ngày mai lúc 14:30. Hãy chuẩn bị câu hỏi và tham gia đúng giờ.",
+      "type": "appointment_reminder",
+      "isRead": false,
+      "createdAt": "2023-04-14T10:00:00Z",
+      "actionUrl": "/consultations/2"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Khóa học được đề xuất",
+      "message": "Dựa trên kỹ năng bạn cần phát triển, chúng tôi đề xuất khóa học 'Nhập môn Machine Learning' trên Stanford Online.",
+      "type": "resource_recommendation",
+      "isRead": false,
+      "createdAt": "2023-03-25T15:45:00Z",
+      "actionUrl": "/resources/2"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "Kết quả khảo sát đã sẵn sàng",
+      "message": "Cảm ơn bạn đã hoàn thành khảo sát nghề nghiệp. Kết quả của bạn đã sẵn sàng để xem.",
+      "type": "survey_completed",
+      "isRead": true,
+      "createdAt": "2023-03-20T11:20:00Z",
+      "actionUrl": "/analysis/survey"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "title": "Ưu đãi đặc biệt",
+      "message": "Nhân dịp kỷ niệm, chúng tôi giảm giá 30% cho Gói Tư vấn Toàn diện trong 48 giờ tới. Đặt lịch ngay!",
+      "type": "promotion",
+      "isRead": false,
+      "createdAt": "2023-04-05T09:00:00Z",
+      "actionUrl": "/packages"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "title": "Cập nhật kỹ năng mới",
+      "message": "Chúng tôi vừa thêm đánh giá kỹ năng 'SQL' vào hệ thống. Hãy cập nhật hồ sơ của bạn để nhận được gợi ý nghề nghiệp chính xác hơn.",
+      "type": "skill_update",
+      "isRead": false,
+      "createdAt": "2023-04-10T14:15:00Z",
+      "actionUrl": "/profile/skills"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "title": "Phản hồi từ chuyên gia",
+      "message": "Chuyên gia Nguyễn Văn A đã phản hồi câu hỏi của bạn về nghề Kỹ sư phần mềm. Xem ngay!",
+      "type": "expert_reply",
+      "isRead": true,
+      "createdAt": "2023-02-28T16:40:00Z",
+      "actionUrl": "/consultations/1"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "title": "Nghề nghiệp phù hợp mới",
+      "message": "Dựa trên đánh giá gần đây của bạn, chúng tôi đã tìm thấy thêm 3 nghề phù hợp với hồ sơ của bạn.",
+      "type": "career_match",
+      "isRead": false,
+      "createdAt": "2023-04-08T10:30:00Z",
+      "actionUrl": "/careers/recommendations"
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "title": "Cập nhật ứng dụng",
+      "message": "Chúng tôi vừa cập nhật ứng dụng với các tính năng mới, bao gồm lộ trình học tập cá nhân hóa và công cụ so sánh nghề nghiệp.",
+      "type": "app_update",
+      "isRead": true,
+      "createdAt": "2023-03-30T08:00:00Z",
+      "actionUrl": "/whatsnew"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "title": "Nhắc nhở cập nhật hồ sơ",
+      "message": "Bạn chưa cập nhật hồ sơ trong 30 ngày. Hãy cập nhật để nhận được gợi ý nghề nghiệp và tài nguyên học tập phù hợp nhất.",
+      "type": "profile_reminder",
+      "isRead": false,
+      "createdAt": "2023-04-12T13:00:00Z",
+      "actionUrl": "/profile"
+    }
+  ]
+} 

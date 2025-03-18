@@ -1,0 +1,188 @@
+{
+  "success": true,
+  "data": {
+    "userId": 1,
+    "assessmentDate": "2023-04-01T10:30:00Z",
+    "lastUpdated": "2023-04-15T14:45:00Z",
+    "overallScore": 76,
+    "skills": [
+      {
+        "skillId": 1,
+        "name": "Lập trình",
+        "score": 85,
+        "level": "Nâng cao",
+        "strengths": "Khả năng giải quyết vấn đề tốt, logic chặt chẽ, hiểu biết về nhiều ngôn ngữ lập trình.",
+        "areasToImprove": "Cần phát triển thêm kỹ năng tối ưu hóa mã và thiết kế kiến trúc phần mềm.",
+        "skillCategory": "Kỹ năng kỹ thuật"
+      },
+      {
+        "skillId": 3,
+        "name": "Phân tích dữ liệu",
+        "score": 78,
+        "level": "Trung cấp",
+        "strengths": "Khả năng phân tích xu hướng và rút ra insights từ dữ liệu, sử dụng tốt các công cụ phân tích.",
+        "areasToImprove": "Cần nâng cao kỹ năng thống kê và kỹ thuật mô hình hóa dữ liệu phức tạp.",
+        "skillCategory": "Kỹ năng phân tích"
+      },
+      {
+        "skillId": 4,
+        "name": "Giao tiếp",
+        "score": 70,
+        "level": "Trung cấp",
+        "strengths": "Trình bày ý tưởng rõ ràng, lắng nghe tích cực và phản hồi kịp thời.",
+        "areasToImprove": "Cần cải thiện kỹ năng giao tiếp trong các tình huống căng thẳng và thuyết trình trước đám đông.",
+        "skillCategory": "Kỹ năng mềm"
+      },
+      {
+        "skillId": 5,
+        "name": "Làm việc nhóm",
+        "score": 82,
+        "level": "Nâng cao",
+        "strengths": "Hợp tác tốt, chia sẻ kiến thức, đóng góp tích cực vào mục tiêu chung của nhóm.",
+        "areasToImprove": "Cần phát triển kỹ năng giải quyết xung đột trong nhóm và khả năng lãnh đạo.",
+        "skillCategory": "Kỹ năng mềm"
+      },
+      {
+        "skillId": 7,
+        "name": "Giải quyết vấn đề",
+        "score": 80,
+        "level": "Nâng cao",
+        "strengths": "Tư duy sáng tạo, phân tích vấn đề từ nhiều góc độ, đưa ra giải pháp hiệu quả.",
+        "areasToImprove": "Cần cải thiện khả năng đánh giá rủi ro và tác động của các giải pháp.",
+        "skillCategory": "Kỹ năng tư duy"
+      },
+      {
+        "skillId": 9,
+        "name": "Tư duy phản biện",
+        "score": 75,
+        "level": "Trung cấp",
+        "strengths": "Phân tích thông tin khách quan, đặt câu hỏi sâu và đánh giá nguồn thông tin.",
+        "areasToImprove": "Cần phát triển khả năng nhận diện thành kiến cá nhân và đánh giá đa chiều hơn.",
+        "skillCategory": "Kỹ năng tư duy"
+      },
+      {
+        "skillId": 10,
+        "name": "Sáng tạo",
+        "score": 72,
+        "level": "Trung cấp",
+        "strengths": "Tạo ra ý tưởng mới, suy nghĩ ngoài khuôn khổ và liên kết các khái niệm khác nhau.",
+        "areasToImprove": "Cần phát triển thêm khả năng ứng dụng ý tưởng sáng tạo vào thực tế.",
+        "skillCategory": "Kỹ năng sáng tạo"
+      },
+      {
+        "skillId": 12,
+        "name": "Ngoại ngữ",
+        "score": 65,
+        "level": "Trung cấp",
+        "strengths": "Đọc hiểu tốt, vốn từ vựng phong phú, khả năng giao tiếp cơ bản.",
+        "areasToImprove": "Cần cải thiện kỹ năng nghe và nói, đặc biệt trong môi trường chuyên môn.",
+        "skillCategory": "Kỹ năng ngôn ngữ"
+      },
+      {
+        "skillId": 19,
+        "name": "Tư duy logic",
+        "score": 85,
+        "level": "Nâng cao",
+        "strengths": "Suy luận chặt chẽ, cấu trúc thông tin có hệ thống, tìm ra mối quan hệ nhân quả.",
+        "areasToImprove": "Cần linh hoạt hơn khi gặp các tình huống không có cấu trúc rõ ràng.",
+        "skillCategory": "Kỹ năng tư duy"
+      },
+      {
+        "skillId": 20,
+        "name": "Tự học",
+        "score": 88,
+        "level": "Nâng cao",
+        "strengths": "Chủ động tìm kiếm kiến thức mới, kiên trì học tập, áp dụng kiến thức vào thực tế.",
+        "areasToImprove": "Cần xây dựng lộ trình học tập hiệu quả hơn và đánh giá tiến độ thường xuyên.",
+        "skillCategory": "Kỹ năng học tập"
+      },
+      {
+        "skillId": 21,
+        "name": "Thích ứng",
+        "score": 72,
+        "level": "Trung cấp",
+        "strengths": "Khả năng làm quen với môi trường mới, học hỏi nhanh và điều chỉnh cách làm việc.",
+        "areasToImprove": "Cần thoải mái hơn với sự thay đổi đột ngột và tăng cường khả năng phục hồi.",
+        "skillCategory": "Kỹ năng mềm"
+      },
+      {
+        "skillId": 26,
+        "name": "Python",
+        "score": 82,
+        "level": "Nâng cao",
+        "strengths": "Thành thạo cú pháp, hiểu rõ các thư viện phổ biến, xây dựng được ứng dụng hoàn chỉnh.",
+        "areasToImprove": "Cần cải thiện hiểu biết về Python để xử lý big data và parallel processing.",
+        "skillCategory": "Kỹ năng kỹ thuật"
+      }
+    ],
+    "recommendedSkills": [
+      {
+        "skillId": 28,
+        "name": "Machine Learning",
+        "reason": "Phù hợp với kỹ năng Python và phân tích dữ liệu hiện có, mở rộng cơ hội nghề nghiệp trong lĩnh vực AI/ML.",
+        "skillCategory": "Kỹ năng kỹ thuật"
+      },
+      {
+        "skillId": 17,
+        "name": "Thiết kế UX/UI",
+        "reason": "Kết hợp với kỹ năng lập trình để trở thành developer toàn diện, tăng khả năng tạo ra sản phẩm người dùng ưa thích.",
+        "skillCategory": "Kỹ năng kỹ thuật"
+      },
+      {
+        "skillId": 8,
+        "name": "Lãnh đạo",
+        "reason": "Phát triển để tiến tới vị trí quản lý nhóm, tận dụng khả năng làm việc nhóm và giải quyết vấn đề.",
+        "skillCategory": "Kỹ năng quản lý"
+      },
+      {
+        "skillId": 13,
+        "name": "Thuyết trình",
+        "reason": "Nâng cao khả năng trình bày ý tưởng kỹ thuật phức tạp một cách rõ ràng và thuyết phục.",
+        "skillCategory": "Kỹ năng mềm"
+      },
+      {
+        "skillId": 27,
+        "name": "SQL",
+        "reason": "Bổ sung kiến thức về cơ sở dữ liệu để tăng cường khả năng phân tích dữ liệu và phát triển ứng dụng.",
+        "skillCategory": "Kỹ năng kỹ thuật"
+      }
+    ],
+    "careerFit": [
+      {
+        "careerId": 1,
+        "careerName": "Kỹ sư phần mềm",
+        "compatibility": 85,
+        "matchingSkills": ["Lập trình", "Giải quyết vấn đề", "Tư duy logic", "Python"],
+        "skillsToImprove": ["Thiết kế UX/UI", "SQL", "Quản lý dự án"]
+      },
+      {
+        "careerId": 4,
+        "careerName": "Kỹ sư dữ liệu",
+        "compatibility": 78,
+        "matchingSkills": ["Python", "Phân tích dữ liệu", "Tư duy logic"],
+        "skillsToImprove": ["SQL", "Machine Learning", "Big Data"]
+      },
+      {
+        "careerId": 11,
+        "careerName": "Kỹ sư AI",
+        "compatibility": 75,
+        "matchingSkills": ["Python", "Phân tích dữ liệu", "Tư duy logic", "Giải quyết vấn đề"],
+        "skillsToImprove": ["Machine Learning", "Deep Learning", "Toán học nâng cao"]
+      },
+      {
+        "careerId": 2,
+        "careerName": "Nhà thiết kế UX/UI",
+        "compatibility": 65,
+        "matchingSkills": ["Sáng tạo", "Giải quyết vấn đề", "Tư duy logic"],
+        "skillsToImprove": ["Thiết kế đồ họa", "Thiết kế UX/UI", "Nghiên cứu người dùng"]
+      },
+      {
+        "careerId": 3,
+        "careerName": "Chuyên viên Marketing số",
+        "compatibility": 60,
+        "matchingSkills": ["Phân tích dữ liệu", "Sáng tạo", "Thích ứng"],
+        "skillsToImprove": ["Digital Marketing", "Sáng tạo nội dung", "SEO/SEM"]
+      }
+    ]
+  }
+} 

@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "data": {
+    "token": "mock_access_token_1234567890",
+    "user": {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "email": "nguyenvana@example.com",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "dateOfBirth": "2000-01-01",
+      "phone": "0912345678",
+      "address": "Hà Nội, Việt Nam",
+      "educationLevel": "Đại học",
+      "school": "Đại học Quốc gia Hà Nội",
+      "major": "Công nghệ thông tin",
+      "interests": ["Lập trình", "Đọc sách", "Du lịch"],
+      "skills": ["Java", "Flutter", "React"]
+    }
+  }
+} 

@@ -1,0 +1,215 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "Lập trình",
+      "icon": "code",
+      "category": "Kỹ năng kỹ thuật",
+      "description": "Khả năng viết mã và phát triển phần mềm bằng các ngôn ngữ lập trình."
+    },
+    {
+      "id": 2,
+      "name": "Thiết kế đồ họa",
+      "icon": "brush",
+      "category": "Kỹ năng sáng tạo",
+      "description": "Khả năng tạo ra các hình ảnh, đồ họa, bố cục và thiết kế trực quan."
+    },
+    {
+      "id": 3,
+      "name": "Phân tích dữ liệu",
+      "icon": "analytics",
+      "category": "Kỹ năng phân tích",
+      "description": "Khả năng thu thập, xử lý và phân tích dữ liệu để đưa ra quyết định."
+    },
+    {
+      "id": 4,
+      "name": "Giao tiếp",
+      "icon": "chat",
+      "category": "Kỹ năng mềm",
+      "description": "Khả năng truyền đạt thông tin, ý tưởng và cảm xúc hiệu quả bằng lời nói và văn bản."
+    },
+    {
+      "id": 5,
+      "name": "Làm việc nhóm",
+      "icon": "groups",
+      "category": "Kỹ năng mềm",
+      "description": "Khả năng làm việc hiệu quả với người khác để đạt được mục tiêu chung."
+    },
+    {
+      "id": 6,
+      "name": "Quản lý thời gian",
+      "icon": "schedule",
+      "category": "Kỹ năng quản lý",
+      "description": "Khả năng sắp xếp và sử dụng thời gian hiệu quả để hoàn thành nhiệm vụ đúng hạn."
+    },
+    {
+      "id": 7,
+      "name": "Giải quyết vấn đề",
+      "icon": "psychology",
+      "category": "Kỹ năng tư duy",
+      "description": "Khả năng xác định, phân tích và giải quyết các vấn đề phức tạp."
+    },
+    {
+      "id": 8,
+      "name": "Lãnh đạo",
+      "icon": "supervisor_account",
+      "category": "Kỹ năng quản lý",
+      "description": "Khả năng truyền cảm hứng, định hướng và quản lý người khác để đạt được mục tiêu."
+    },
+    {
+      "id": 9,
+      "name": "Tư duy phản biện",
+      "icon": "lightbulb",
+      "category": "Kỹ năng tư duy",
+      "description": "Khả năng đánh giá thông tin một cách khách quan và đưa ra phán đoán hợp lý."
+    },
+    {
+      "id": 10,
+      "name": "Sáng tạo",
+      "icon": "palette",
+      "category": "Kỹ năng sáng tạo",
+      "description": "Khả năng tạo ra ý tưởng, giải pháp và cách tiếp cận mới mẻ và độc đáo."
+    },
+    {
+      "id": 11,
+      "name": "Quản lý dự án",
+      "icon": "assignment",
+      "category": "Kỹ năng quản lý",
+      "description": "Khả năng lập kế hoạch, tổ chức, thực hiện và giám sát các dự án từ đầu đến cuối."
+    },
+    {
+      "id": 12,
+      "name": "Ngoại ngữ",
+      "icon": "translate",
+      "category": "Kỹ năng ngôn ngữ",
+      "description": "Khả năng giao tiếp bằng các ngôn ngữ khác ngoài tiếng mẹ đẻ."
+    },
+    {
+      "id": 13,
+      "name": "Thuyết trình",
+      "icon": "record_voice_over",
+      "category": "Kỹ năng mềm",
+      "description": "Khả năng trình bày thông tin trước công chúng một cách rõ ràng và thuyết phục."
+    },
+    {
+      "id": 14,
+      "name": "Đàm phán",
+      "icon": "handshake",
+      "category": "Kỹ năng mềm",
+      "description": "Khả năng thương lượng để đạt được thỏa thuận có lợi cho các bên liên quan."
+    },
+    {
+      "id": 15,
+      "name": "Nghiên cứu",
+      "icon": "search",
+      "category": "Kỹ năng tư duy",
+      "description": "Khả năng thu thập, phân tích và tổng hợp thông tin từ nhiều nguồn khác nhau."
+    },
+    {
+      "id": 16,
+      "name": "Kỹ năng viết",
+      "icon": "edit",
+      "category": "Kỹ năng ngôn ngữ",
+      "description": "Khả năng diễn đạt ý tưởng một cách rõ ràng và hiệu quả bằng văn bản."
+    },
+    {
+      "id": 17,
+      "name": "Thiết kế UX/UI",
+      "icon": "devices",
+      "category": "Kỹ năng kỹ thuật",
+      "description": "Khả năng thiết kế giao diện người dùng và trải nghiệm người dùng cho các ứng dụng số."
+    },
+    {
+      "id": 18,
+      "name": "Quản lý tài chính",
+      "icon": "account_balance_wallet",
+      "category": "Kỹ năng quản lý",
+      "description": "Khả năng lập kế hoạch, quản lý và kiểm soát nguồn lực tài chính."
+    },
+    {
+      "id": 19,
+      "name": "Tư duy logic",
+      "icon": "code",
+      "category": "Kỹ năng tư duy",
+      "description": "Khả năng suy luận một cách nhất quán và có hệ thống."
+    },
+    {
+      "id": 20,
+      "name": "Tự học",
+      "icon": "menu_book",
+      "category": "Kỹ năng học tập",
+      "description": "Khả năng tự thu nhận kiến thức và phát triển kỹ năng một cách độc lập."
+    },
+    {
+      "id": 21,
+      "name": "Thích ứng",
+      "icon": "swap_horizontal_circle",
+      "category": "Kỹ năng mềm",
+      "description": "Khả năng đối phó và thích nghi với thay đổi và tình huống mới."
+    },
+    {
+      "id": 22,
+      "name": "Quản lý căng thẳng",
+      "icon": "self_improvement",
+      "category": "Kỹ năng mềm",
+      "description": "Khả năng đối phó hiệu quả với áp lực và duy trì sự cân bằng trong công việc."
+    },
+    {
+      "id": 23,
+      "name": "Quản lý khách hàng",
+      "icon": "support_agent",
+      "category": "Kỹ năng kinh doanh",
+      "description": "Khả năng xây dựng và duy trì mối quan hệ với khách hàng để đáp ứng nhu cầu của họ."
+    },
+    {
+      "id": 24,
+      "name": "Kỹ năng số",
+      "icon": "devices",
+      "category": "Kỹ năng kỹ thuật",
+      "description": "Khả năng sử dụng công nghệ số và các công cụ kỹ thuật số một cách hiệu quả."
+    },
+    {
+      "id": 25,
+      "name": "Tổ chức",
+      "icon": "event_note",
+      "category": "Kỹ năng quản lý",
+      "description": "Khả năng sắp xếp công việc, thông tin và nguồn lực một cách có hệ thống."
+    },
+    {
+      "id": 26,
+      "name": "Python",
+      "icon": "code",
+      "category": "Kỹ năng kỹ thuật",
+      "description": "Khả năng lập trình bằng ngôn ngữ Python để phát triển ứng dụng và phân tích dữ liệu."
+    },
+    {
+      "id": 27,
+      "name": "SQL",
+      "icon": "storage",
+      "category": "Kỹ năng kỹ thuật",
+      "description": "Khả năng sử dụng SQL để truy vấn và quản lý cơ sở dữ liệu."
+    },
+    {
+      "id": 28,
+      "name": "Machine Learning",
+      "icon": "psychology",
+      "category": "Kỹ năng kỹ thuật",
+      "description": "Khả năng phát triển và áp dụng các thuật toán học máy để giải quyết vấn đề."
+    },
+    {
+      "id": 29,
+      "name": "Digital Marketing",
+      "icon": "campaign",
+      "category": "Kỹ năng kinh doanh",
+      "description": "Khả năng thực hiện các chiến dịch tiếp thị trên các nền tảng kỹ thuật số."
+    },
+    {
+      "id": 30,
+      "name": "Đồng cảm",
+      "icon": "favorite",
+      "category": "Kỹ năng mềm",
+      "description": "Khả năng hiểu và chia sẻ cảm xúc của người khác, xây dựng mối quan hệ tin cậy."
+    }
+  ]
+} 

@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "userId": 1,
+      "fullName": "Nguyễn Văn A",
+      "dateOfBirth": "2000-01-01",
+      "lifePathNumber": 2,
+      "destinyNumber": 7,
+      "personalityNumber": 5,
+      "soulNumber": 3,
+      "analysis": {
+        "summary": "Bạn có con số chủ đạo là 2, thể hiện khả năng hòa giải và hợp tác. Bạn có khả năng làm việc tốt trong môi trường đồng đội và có thể đóng vai trò trung gian giữa các quan điểm khác nhau.",
+        "lifePathAnalysis": "Con số đường đời 2 thể hiện bạn là người nhạy cảm, chu đáo và có khả năng làm việc tốt trong môi trường đồng đội.",
+        "destinyAnalysis": "Con số định mệnh 7 cho thấy bạn có khả năng phân tích, nghiên cứu và thích khám phá sự thật đằng sau mọi vấn đề."
+      },
+      "strengths": [
+        "Khả năng giao tiếp tốt",
+        "Tư duy logic",
+        "Khả năng làm việc nhóm",
+        "Óc phân tích sâu sắc",
+        "Trực giác tốt"
+      ],
+      "weaknesses": [
+        "Đôi khi thiếu quyết đoán",
+        "Dễ bị ảnh hưởng bởi cảm xúc",
+        "Khả năng tổ chức cần cải thiện"
+      ],
+      "suitableCareers": [
+        "Nghiên cứu khoa học",
+        "Tư vấn",
+        "Giáo dục",
+        "Công nghệ thông tin",
+        "Tâm lý học"
+      ],
+      "createdAt": "2023-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "fullName": "Nguyễn Thị B",
+      "dateOfBirth": "1998-05-15",
+      "lifePathNumber": 1,
+      "destinyNumber": 8,
+      "personalityNumber": 3,
+      "soulNumber": 9,
+      "analysis": {
+        "summary": "Bạn có con số chủ đạo là 1, thể hiện tính độc lập và tính cách lãnh đạo. Bạn có khả năng định hướng và khả năng sáng tạo cao.",
+        "lifePathAnalysis": "Con số đường đời 1 thể hiện tinh thần độc lập, tính sáng tạo và khả năng lãnh đạo.",
+        "destinyAnalysis": "Con số định mệnh 8 cho thấy bạn có tiềm năng thành công trong lĩnh vực kinh doanh, tài chính hoặc quản lý."
+      },
+      "strengths": [
+        "Khả năng lãnh đạo",
+        "Tư duy chiến lược",
+        "Tính độc lập cao",
+        "Khả năng giải quyết vấn đề",
+        "Sự tự tin"
+      ],
+      "weaknesses": [
+        "Đôi khi quá cứng nhắc",
+        "Có thể tỏ ra độc đoán",
+        "Thiếu kiên nhẫn với người khác"
+      ],
+      "suitableCareers": [
+        "Lãnh đạo doanh nghiệp",
+        "Quản lý dự án",
+        "Khởi nghiệp",
+        "Kinh doanh",
+        "Quản trị nhân sự"
+      ],
+      "createdAt": "2023-02-20T14:15:00Z"
+    }
+  ]
+} 

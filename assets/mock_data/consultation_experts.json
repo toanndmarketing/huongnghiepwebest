@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "title": "Chuyên gia Tâm lý học",
+      "experience": "10 năm kinh nghiệm",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "description": "Tiến sĩ Tâm lý học với hơn 10 năm kinh nghiệm trong lĩnh vực tư vấn hướng nghiệp. Đã tư vấn thành công cho hơn 1000 học sinh, sinh viên trong việc định hướng nghề nghiệp.",
+      "specialties": ["Tâm lý hướng nghiệp", "Đánh giá năng lực", "Tư vấn phát triển sự nghiệp"],
+      "rating": 4.8,
+      "consultationsCount": 1248
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị B",
+      "title": "Chuyên gia Hướng nghiệp",
+      "experience": "8 năm kinh nghiệm",
+      "avatar": "https://randomuser.me/api/portraits/women/28.jpg",
+      "description": "Thạc sĩ Giáo dục học với chuyên môn về hướng nghiệp. Có nhiều năm kinh nghiệm làm việc với học sinh cấp 3 và sinh viên đại học trong việc định hướng nghề nghiệp và phát triển kỹ năng.",
+      "specialties": ["Tư vấn hướng nghiệp cho học sinh", "Phân tích nghề nghiệp", "Kỹ năng phỏng vấn"],
+      "rating": 4.7,
+      "consultationsCount": 956
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn C",
+      "title": "Chuyên gia Nhân sự & Tuyển dụng",
+      "experience": "15 năm kinh nghiệm",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+      "description": "Chuyên gia nhân sự cấp cao với hơn 15 năm kinh nghiệm làm việc tại các tập đoàn đa quốc gia. Hiểu rõ nhu cầu của nhà tuyển dụng và xu hướng thị trường lao động.",
+      "specialties": ["Xu hướng thị trường lao động", "Phát triển CV", "Đàm phán lương", "Định hướng sự nghiệp"],
+      "rating": 4.9,
+      "consultationsCount": 1572
+    },
+    {
+      "id": 4,
+      "name": "Phạm Minh D",
+      "title": "Chuyên gia Đào tạo Kỹ năng",
+      "experience": "12 năm kinh nghiệm",
+      "avatar": "https://randomuser.me/api/portraits/women/42.jpg",
+      "description": "Chuyên gia đào tạo kỹ năng mềm và kỹ năng chuyên môn cho các doanh nghiệp và trường đại học. Có khả năng phân tích nhu cầu kỹ năng của thị trường và hướng dẫn phát triển năng lực.",
+      "specialties": ["Kỹ năng mềm", "Kỹ năng thuyết trình", "Kỹ năng lãnh đạo", "Phát triển bản thân"],
+      "rating": 4.6,
+      "consultationsCount": 1105
+    }
+  ]
+} 

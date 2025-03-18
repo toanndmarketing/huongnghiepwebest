@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "Công nghệ thông tin",
+      "icon": "computer",
+      "description": "Các ngành nghề liên quan đến phát triển phần mềm, phần cứng, xử lý dữ liệu và trí tuệ nhân tạo."
+    },
+    {
+      "id": 2,
+      "name": "Thiết kế & Sáng tạo",
+      "icon": "brush",
+      "description": "Các ngành nghề liên quan đến thiết kế đồ họa, thiết kế sản phẩm, thiết kế nội thất và sáng tạo nội dung."
+    },
+    {
+      "id": 3,
+      "name": "Marketing & Truyền thông",
+      "icon": "campaign",
+      "description": "Các ngành nghề liên quan đến quảng cáo, xây dựng thương hiệu, truyền thông kỹ thuật số và quan hệ công chúng."
+    },
+    {
+      "id": 4,
+      "name": "Tài chính & Kế toán",
+      "icon": "account_balance",
+      "description": "Các ngành nghề liên quan đến quản lý tài chính, đầu tư, kế toán, kiểm toán và ngân hàng."
+    },
+    {
+      "id": 5,
+      "name": "Giáo dục & Đào tạo",
+      "icon": "school",
+      "description": "Các ngành nghề liên quan đến giảng dạy, đào tạo, phát triển giáo trình và quản lý giáo dục."
+    },
+    {
+      "id": 6,
+      "name": "Y tế & Chăm sóc sức khỏe",
+      "icon": "local_hospital",
+      "description": "Các ngành nghề liên quan đến y học, điều dưỡng, dược phẩm, sức khỏe cộng đồng và chăm sóc sức khỏe."
+    },
+    {
+      "id": 7,
+      "name": "Xây dựng & Thiết kế",
+      "icon": "architecture",
+      "description": "Các ngành nghề liên quan đến xây dựng, kiến trúc, thiết kế công trình và quản lý dự án xây dựng."
+    },
+    {
+      "id": 8,
+      "name": "Nhân sự & Tuyển dụng",
+      "icon": "groups",
+      "description": "Các ngành nghề liên quan đến quản trị nhân sự, tuyển dụng, đào tạo nhân viên và phát triển tổ chức."
+    },
+    {
+      "id": 9,
+      "name": "Quản lý & Điều hành",
+      "icon": "business_center",
+      "description": "Các ngành nghề liên quan đến quản lý doanh nghiệp, quản lý dự án, điều hành và phát triển chiến lược."
+    },
+    {
+      "id": 10,
+      "name": "Kỹ thuật & Sản xuất",
+      "icon": "engineering",
+      "description": "Các ngành nghề liên quan đến kỹ thuật cơ khí, điện tử, sản xuất, chế tạo và kiểm soát chất lượng."
+    },
+    {
+      "id": 11,
+      "name": "Luật & Tư vấn pháp lý",
+      "icon": "gavel",
+      "description": "Các ngành nghề liên quan đến luật pháp, tư vấn pháp lý, luật sư và chuyên gia pháp lý."
+    },
+    {
+      "id": 12,
+      "name": "Dịch vụ & Khách hàng",
+      "icon": "support_agent",
+      "description": "Các ngành nghề liên quan đến dịch vụ khách hàng, quản lý dịch vụ và chăm sóc khách hàng."
+    }
+  ]
+} 

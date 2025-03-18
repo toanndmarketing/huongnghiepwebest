@@ -1,0 +1,153 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "numerology",
+      "strengths": [
+        "Khả năng giao tiếp tốt",
+        "Tư duy logic",
+        "Khả năng làm việc nhóm",
+        "Óc phân tích sâu sắc",
+        "Trực giác tốt"
+      ],
+      "weaknesses": [
+        "Đôi khi thiếu quyết đoán",
+        "Dễ bị ảnh hưởng bởi cảm xúc",
+        "Khả năng tổ chức cần cải thiện"
+      ],
+      "recommendedCareers": [
+        {
+          "career": "Nghiên cứu khoa học",
+          "compatibility": 4.5,
+          "description": "Với tư duy logic và óc phân tích, bạn có thể thành công trong lĩnh vực nghiên cứu khoa học.",
+          "requiredSkills": ["Phân tích dữ liệu", "Tư duy logic", "Kiên nhẫn", "Khả năng đọc hiểu"],
+          "outlookDescription": "Nghề nghiên cứu đang có nhu cầu ngày càng tăng trong thời đại công nghệ và khoa học phát triển.",
+          "outlookRating": 4.2
+        },
+        {
+          "career": "Tư vấn",
+          "compatibility": 4.7,
+          "description": "Khả năng giao tiếp tốt và trực giác của bạn là những yếu tố quan trọng để trở thành nhà tư vấn giỏi.",
+          "requiredSkills": ["Giao tiếp", "Đồng cảm", "Lắng nghe", "Giải quyết vấn đề"],
+          "outlookDescription": "Nhu cầu tư vấn trong nhiều lĩnh vực đang tăng cao do sự phức tạp của xã hội hiện đại.",
+          "outlookRating": 4.5
+        },
+        {
+          "career": "Công nghệ thông tin",
+          "compatibility": 4.2,
+          "description": "Tư duy logic và khả năng phân tích của bạn rất phù hợp với ngành công nghệ thông tin.",
+          "requiredSkills": ["Lập trình", "Tư duy logic", "Giải quyết vấn đề", "Học hỏi liên tục"],
+          "outlookDescription": "Ngành IT đang phát triển mạnh mẽ và nhu cầu nhân lực còn rất lớn trong tương lai.",
+          "outlookRating": 4.8
+        }
+      ],
+      "developmentPaths": [
+        {
+          "title": "Phát triển kỹ năng lãnh đạo",
+          "description": "Tăng cường khả năng quyết đoán và phát triển kỹ năng lãnh đạo để bổ sung cho điểm yếu hiện tại.",
+          "steps": [
+            "Tham gia các khóa học về lãnh đạo",
+            "Thực hành đưa ra quyết định trong các tình huống nhỏ",
+            "Tìm kiếm cơ hội lãnh đạo trong các dự án nhóm"
+          ],
+          "resources": [
+            "Khóa học 'Kỹ năng lãnh đạo hiệu quả' trên Coursera",
+            "Sách 'Dám lãnh đạo' của Brené Brown",
+            "Các câu lạc bộ hoặc tổ chức phát triển lãnh đạo"
+          ]
+        },
+        {
+          "title": "Nâng cao kỹ năng quản lý cảm xúc",
+          "description": "Học cách quản lý cảm xúc để không bị ảnh hưởng quá nhiều trong các quyết định quan trọng.",
+          "steps": [
+            "Thực hành chánh niệm (mindfulness) hàng ngày",
+            "Học các kỹ thuật quản lý cảm xúc",
+            "Tìm hiểu về trí tuệ cảm xúc (EQ)"
+          ],
+          "resources": [
+            "Ứng dụng thiền và chánh niệm như Headspace",
+            "Sách 'Trí tuệ cảm xúc' của Daniel Goleman",
+            "Khóa học 'Quản lý cảm xúc hiệu quả' trên Udemy"
+          ]
+        }
+      ],
+      "createdAt": "2023-01-20T15:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "survey",
+      "strengths": [
+        "Khả năng sáng tạo",
+        "Tư duy phản biện",
+        "Kỹ năng giao tiếp",
+        "Khả năng thích nghi cao",
+        "Làm việc độc lập tốt"
+      ],
+      "weaknesses": [
+        "Đôi khi thiếu kiên nhẫn",
+        "Kỹ năng quản lý thời gian cần cải thiện",
+        "Học ngoại ngữ còn hạn chế"
+      ],
+      "recommendedCareers": [
+        {
+          "career": "Thiết kế UX/UI",
+          "compatibility": 4.8,
+          "description": "Khả năng sáng tạo và tư duy phản biện của bạn rất phù hợp với ngành thiết kế trải nghiệm người dùng.",
+          "requiredSkills": ["Sáng tạo", "Đồng cảm", "Thiết kế", "Hiểu về tâm lý người dùng"],
+          "outlookDescription": "Thiết kế UX/UI đang trở thành một nghề rất cần thiết khi các doanh nghiệp ngày càng chú trọng trải nghiệm người dùng.",
+          "outlookRating": 4.7
+        },
+        {
+          "career": "Marketing sáng tạo",
+          "compatibility": 4.6,
+          "description": "Với khả năng sáng tạo và giao tiếp tốt, bạn có thể phát triển tốt trong lĩnh vực marketing.",
+          "requiredSkills": ["Sáng tạo", "Kể chuyện", "Hiểu tâm lý khách hàng", "Giao tiếp"],
+          "outlookDescription": "Marketing ngày càng đòi hỏi sự sáng tạo và độc đáo để thu hút khách hàng.",
+          "outlookRating": 4.5
+        },
+        {
+          "career": "Phát triển nội dung (Content Creation)",
+          "compatibility": 4.4,
+          "description": "Khả năng sáng tạo và làm việc độc lập của bạn rất phù hợp để trở thành người sáng tạo nội dung.",
+          "requiredSkills": ["Sáng tạo", "Viết lách", "Hiểu tâm lý độc giả", "Kể chuyện"],
+          "outlookDescription": "Trong thời đại số, nhu cầu về nội dung chất lượng cao đang tăng liên tục.",
+          "outlookRating": 4.3
+        }
+      ],
+      "developmentPaths": [
+        {
+          "title": "Nâng cao kỹ năng quản lý thời gian",
+          "description": "Phát triển khả năng tổ chức và quản lý thời gian hiệu quả hơn.",
+          "steps": [
+            "Học cách lập kế hoạch và ưu tiên công việc",
+            "Sử dụng các công cụ quản lý thời gian",
+            "Thực hành kỹ thuật Pomodoro"
+          ],
+          "resources": [
+            "Ứng dụng Trello hoặc Todoist",
+            "Sách 'Eat That Frog' của Brian Tracy",
+            "Khóa học 'Quản lý thời gian hiệu quả' trên LinkedIn Learning"
+          ]
+        },
+        {
+          "title": "Cải thiện kỹ năng ngoại ngữ",
+          "description": "Nâng cao trình độ ngoại ngữ để mở rộng cơ hội nghề nghiệp.",
+          "steps": [
+            "Đăng ký khóa học ngoại ngữ online",
+            "Thực hành nói với người bản xứ",
+            "Học từ vựng và ngữ pháp hàng ngày"
+          ],
+          "resources": [
+            "Ứng dụng Duolingo hoặc Memrise",
+            "Nền tảng trao đổi ngôn ngữ như Tandem",
+            "Các kênh YouTube dạy ngoại ngữ"
+          ]
+        }
+      ],
+      "createdAt": "2023-02-05T09:45:00Z"
+    }
+  ]
+} 
