@@ -1,8 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
-
-part 'survey_model.g.dart';
-
-@JsonSerializable()
 class SurveyModel {
   final int id;
   final int userId;
@@ -20,12 +15,33 @@ class SurveyModel {
     this.completedAt,
   });
 
-  factory SurveyModel.fromJson(Map<String, dynamic> json) => _$SurveyModelFromJson(json);
+  factory SurveyModel.fromJson(Map<String, dynamic> json) {
+    return SurveyModel(
+      id: json['id'],
+      userId: json['userId'],
+      questions: (json['questions'] as List)
+          .map((q) => SurveyQuestion.fromJson(q))
+          .toList(),
+      answers: Map<String, dynamic>.from(json['answers']),
+      createdAt: DateTime.parse(json['createdAt']),
+      completedAt: json['completedAt'] != null 
+          ? DateTime.parse(json['completedAt']) 
+          : null,
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$SurveyModelToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'userId': userId,
+      'questions': questions.map((q) => q.toJson()).toList(),
+      'answers': answers,
+      'createdAt': createdAt.toIso8601String(),
+      'completedAt': completedAt?.toIso8601String(),
+    };
+  }
 }
 
-@JsonSerializable()
 class SurveyQuestion {
   final int id;
   final String question;
@@ -41,7 +57,25 @@ class SurveyQuestion {
     required this.isRequired,
   });
 
-  factory SurveyQuestion.fromJson(Map<String, dynamic> json) => _$SurveyQuestionFromJson(json);
+  factory SurveyQuestion.fromJson(Map<String, dynamic> json) {
+    return SurveyQuestion(
+      id: json['id'],
+      question: json['question'],
+      type: json['type'],
+      options: json['options'] != null 
+          ? List<String>.from(json['options']) 
+          : null,
+      isRequired: json['isRequired'],
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$SurveyQuestionToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'question': question,
+      'type': type,
+      'options': options,
+      'isRequired': isRequired,
+    };
+  }
 } 

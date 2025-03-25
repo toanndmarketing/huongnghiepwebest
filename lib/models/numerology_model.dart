@@ -1,8 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
-
-part 'numerology_model.g.dart';
-
-@JsonSerializable()
 class NumerologyModel {
   final int id;
   final int userId;
@@ -34,7 +29,39 @@ class NumerologyModel {
     required this.createdAt,
   });
 
-  factory NumerologyModel.fromJson(Map<String, dynamic> json) => _$NumerologyModelFromJson(json);
+  factory NumerologyModel.fromJson(Map<String, dynamic> json) {
+    return NumerologyModel(
+      id: json['id'],
+      userId: json['userId'],
+      fullName: json['fullName'],
+      dateOfBirth: json['dateOfBirth'],
+      lifePathNumber: json['lifePathNumber'],
+      destinyNumber: json['destinyNumber'],
+      personalityNumber: json['personalityNumber'],
+      soulNumber: json['soulNumber'],
+      analysis: Map<String, dynamic>.from(json['analysis']),
+      strengths: List<String>.from(json['strengths']),
+      weaknesses: List<String>.from(json['weaknesses']),
+      suitableCareers: List<String>.from(json['suitableCareers']),
+      createdAt: DateTime.parse(json['createdAt']),
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$NumerologyModelToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'userId': userId,
+      'fullName': fullName,
+      'dateOfBirth': dateOfBirth,
+      'lifePathNumber': lifePathNumber,
+      'destinyNumber': destinyNumber,
+      'personalityNumber': personalityNumber,
+      'soulNumber': soulNumber,
+      'analysis': analysis,
+      'strengths': strengths,
+      'weaknesses': weaknesses,
+      'suitableCareers': suitableCareers,
+      'createdAt': createdAt.toIso8601String(),
+    };
+  }
 } 

@@ -1,8 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
-
-part 'analysis_result_model.g.dart';
-
-@JsonSerializable()
 class AnalysisResultModel {
   final int id;
   final int userId;
@@ -24,12 +19,37 @@ class AnalysisResultModel {
     required this.createdAt,
   });
 
-  factory AnalysisResultModel.fromJson(Map<String, dynamic> json) => _$AnalysisResultModelFromJson(json);
+  factory AnalysisResultModel.fromJson(Map<String, dynamic> json) {
+    return AnalysisResultModel(
+      id: json['id'],
+      userId: json['userId'],
+      type: json['type'],
+      strengths: List<String>.from(json['strengths']),
+      weaknesses: List<String>.from(json['weaknesses']),
+      recommendedCareers: (json['recommendedCareers'] as List)
+          .map((career) => CareerRecommendation.fromJson(career))
+          .toList(),
+      developmentPaths: (json['developmentPaths'] as List)
+          .map((path) => DevelopmentPath.fromJson(path))
+          .toList(),
+      createdAt: DateTime.parse(json['createdAt']),
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$AnalysisResultModelToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'userId': userId,
+      'type': type,
+      'strengths': strengths,
+      'weaknesses': weaknesses,
+      'recommendedCareers': recommendedCareers.map((career) => career.toJson()).toList(),
+      'developmentPaths': developmentPaths.map((path) => path.toJson()).toList(),
+      'createdAt': createdAt.toIso8601String(),
+    };
+  }
 }
 
-@JsonSerializable()
 class CareerRecommendation {
   final String career;
   final double compatibility;
@@ -47,12 +67,29 @@ class CareerRecommendation {
     required this.outlookRating,
   });
 
-  factory CareerRecommendation.fromJson(Map<String, dynamic> json) => _$CareerRecommendationFromJson(json);
+  factory CareerRecommendation.fromJson(Map<String, dynamic> json) {
+    return CareerRecommendation(
+      career: json['career'],
+      compatibility: json['compatibility'].toDouble(),
+      description: json['description'],
+      requiredSkills: List<String>.from(json['requiredSkills']),
+      outlookDescription: json['outlookDescription'],
+      outlookRating: json['outlookRating'].toDouble(),
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$CareerRecommendationToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'career': career,
+      'compatibility': compatibility,
+      'description': description,
+      'requiredSkills': requiredSkills,
+      'outlookDescription': outlookDescription,
+      'outlookRating': outlookRating,
+    };
+  }
 }
 
-@JsonSerializable()
 class DevelopmentPath {
   final String title;
   final String description;
@@ -66,7 +103,21 @@ class DevelopmentPath {
     required this.resources,
   });
 
-  factory DevelopmentPath.fromJson(Map<String, dynamic> json) => _$DevelopmentPathFromJson(json);
+  factory DevelopmentPath.fromJson(Map<String, dynamic> json) {
+    return DevelopmentPath(
+      title: json['title'],
+      description: json['description'],
+      steps: List<String>.from(json['steps']),
+      resources: List<String>.from(json['resources']),
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$DevelopmentPathToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'title': title,
+      'description': description,
+      'steps': steps,
+      'resources': resources,
+    };
+  }
 } 

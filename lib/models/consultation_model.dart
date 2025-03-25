@@ -1,8 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
-
-part 'consultation_model.g.dart';
-
-@JsonSerializable()
 class ConsultationModel {
   final int id;
   final int userId;
@@ -28,12 +23,37 @@ class ConsultationModel {
     required this.expert,
   });
 
-  factory ConsultationModel.fromJson(Map<String, dynamic> json) => _$ConsultationModelFromJson(json);
+  factory ConsultationModel.fromJson(Map<String, dynamic> json) {
+    return ConsultationModel(
+      id: json['id'],
+      userId: json['userId'],
+      expertId: json['expertId'],
+      packageType: json['packageType'],
+      price: json['price'].toDouble(),
+      status: json['status'],
+      appointmentDate: DateTime.parse(json['appointmentDate']),
+      notes: json['notes'],
+      createdAt: DateTime.parse(json['createdAt']),
+      expert: ExpertModel.fromJson(json['expert']),
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$ConsultationModelToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'userId': userId,
+      'expertId': expertId,
+      'packageType': packageType,
+      'price': price,
+      'status': status,
+      'appointmentDate': appointmentDate.toIso8601String(),
+      'notes': notes,
+      'createdAt': createdAt.toIso8601String(),
+      'expert': expert.toJson(),
+    };
+  }
 }
 
-@JsonSerializable()
 class ExpertModel {
   final int id;
   final String name;
@@ -57,12 +77,35 @@ class ExpertModel {
     required this.consultationsCount,
   });
 
-  factory ExpertModel.fromJson(Map<String, dynamic> json) => _$ExpertModelFromJson(json);
+  factory ExpertModel.fromJson(Map<String, dynamic> json) {
+    return ExpertModel(
+      id: json['id'],
+      name: json['name'],
+      title: json['title'],
+      experience: json['experience'],
+      avatar: json['avatar'],
+      description: json['description'],
+      specialties: List<String>.from(json['specialties']),
+      rating: json['rating'].toDouble(),
+      consultationsCount: json['consultationsCount'],
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$ExpertModelToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'title': title,
+      'experience': experience,
+      'avatar': avatar,
+      'description': description,
+      'specialties': specialties,
+      'rating': rating,
+      'consultationsCount': consultationsCount,
+    };
+  }
 }
 
-@JsonSerializable()
 class ConsultationPackageModel {
   final int id;
   final String name;
@@ -80,7 +123,25 @@ class ConsultationPackageModel {
     required this.durationMinutes,
   });
 
-  factory ConsultationPackageModel.fromJson(Map<String, dynamic> json) => _$ConsultationPackageModelFromJson(json);
+  factory ConsultationPackageModel.fromJson(Map<String, dynamic> json) {
+    return ConsultationPackageModel(
+      id: json['id'],
+      name: json['name'],
+      description: json['description'],
+      price: json['price'].toDouble(),
+      features: List<String>.from(json['features']),
+      durationMinutes: json['durationMinutes'],
+    );
+  }
   
-  Map<String, dynamic> toJson() => _$ConsultationPackageModelToJson(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'description': description,
+      'price': price,
+      'features': features,
+      'durationMinutes': durationMinutes,
+    };
+  }
 } 

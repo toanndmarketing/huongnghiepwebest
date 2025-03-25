@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:async';
+import 'dart:developer' as developer;
 import 'package:flutter/services.dart' show rootBundle;
 
 class MockApiService {
@@ -8,9 +9,19 @@ class MockApiService {
   // Phương thức để đọc dữ liệu từ file JSON
   Future<Map<String, dynamic>> _getJsonData(String filename) async {
     try {
-      final String response = await rootBundle.loadString('$_basePath/$filename');
-      return json.decode(response) as Map<String, dynamic>;
-    } catch (e) {
+      final String path = '$_basePath/$filename';
+      developer.log('Loading mock data from: $path');
+      
+      final String response = await rootBundle.loadString(path);
+      developer.log('Successfully loaded data from: $path');
+      developer.log('Data content length: ${response.length}');
+      
+      final jsonData = json.decode(response);
+      developer.log('Successfully parsed JSON data');
+      
+      return jsonData as Map<String, dynamic>;
+    } catch (e, stackTrace) {
+      developer.log('Error loading mock data: $e', error: e, stackTrace: stackTrace);
       throw Exception('Không thể đọc dữ liệu từ $filename: $e');
     }
   }

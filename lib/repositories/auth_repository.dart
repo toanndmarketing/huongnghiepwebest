@@ -1,4 +1,6 @@
 import 'dart:convert';
+import 'dart:developer' as developer;
+import 'package:huongnghiep/models/api_response.dart';
 import 'package:huongnghiep/models/user_model.dart';
 import 'package:huongnghiep/services/mock_api_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -13,32 +15,41 @@ class AuthRepository {
   AuthRepository(this._apiService, this._prefs);
   
   // Đăng nhập
-  Future<UserModel> login(String email, String password) async {
+  Future<ApiResponse<UserModel>> login(String email, String password) async {
     try {
-      final response = await _apiService.post('auth/login', {
-        'email': email,
-        'password': password,
-      });
+      developer.log('Attempting to login with email: $email');
+      final response = await _apiService.get('auth_login');
+      developer.log('Login response received: ${response['success']}');
       
       if (response['success'] == true) {
-        final userData = response['data'];
-        final token = userData['token'];
+        final userData = response['data']['user'];
+        final token = response['data']['token'];
+        
+        // Kiểm tra tài khoản
+        if (email != userData['email'] || password != '123456') { // Giả lập mật khẩu
+          developer.log('Login failed: Invalid credentials');
+          return ApiResponse.error('Email hoặc mật khẩu không đúng');
+        }
         
         // Lưu token và thông tin người dùng
         await _prefs.setString(_authTokenKey, token);
-        await _prefs.setString(_userDataKey, json.encode(userData['user']));
+        await _prefs.setString(_userDataKey, json.encode(userData));
         
-        return UserModel.fromJson(userData['user']);
+        final user = UserModel.fromJson(userData);
+        developer.log('Login successful for user: ${user.name}');
+        return ApiResponse.success(user);
       } else {
-        throw Exception(response['message'] ?? 'Đăng nhập thất bại');
+        developer.log('Login failed: ${response['message'] ?? 'Unknown error'}');
+        return ApiResponse.error(response['message'] ?? 'Đăng nhập thất bại');
       }
     } catch (e) {
-      throw Exception('Đăng nhập thất bại: $e');
+      developer.log('Login exception: $e', error: e);
+      return ApiResponse.error('Đăng nhập thất bại: $e');
     }
   }
   
   // Đăng ký
-  Future<UserModel> register(String name, String email, String password) async {
+  Future<ApiResponse<UserModel>> register(String name, String email, String password) async {
     try {
       final response = await _apiService.post('auth/register', {
         'name': name,
@@ -54,12 +65,13 @@ class AuthRepository {
         await _prefs.setString(_authTokenKey, token);
         await _prefs.setString(_userDataKey, json.encode(userData['user']));
         
-        return UserModel.fromJson(userData['user']);
+        final user = UserModel.fromJson(userData['user']);
+        return ApiResponse.success(user);
       } else {
-        throw Exception(response['message'] ?? 'Đăng ký thất bại');
+        return ApiResponse.error(response['message'] ?? 'Đăng ký thất bại');
       }
     } catch (e) {
-      throw Exception('Đăng ký thất bại: $e');
+      return ApiResponse.error('Đăng ký thất bại: $e');
     }
   }
   
@@ -92,10 +104,10 @@ class AuthRepository {
   }
   
   // Cập nhật thông tin người dùng
-  Future<UserModel> updateProfile(Map<String, dynamic> data) async {
+  Future<ApiResponse<UserModel>> updateProfile(Map<String, dynamic> data) async {
     final currentUser = getCurrentUser();
     if (currentUser == null) {
-      throw Exception('Không tìm thấy thông tin người dùng');
+      return ApiResponse.error('Không tìm thấy thông tin người dùng');
     }
     
     try {
@@ -107,12 +119,13 @@ class AuthRepository {
         // Cập nhật thông tin người dùng đã lưu
         await _prefs.setString(_userDataKey, json.encode(updatedUser));
         
-        return UserModel.fromJson(updatedUser);
+        final user = UserModel.fromJson(updatedUser);
+        return ApiResponse.success(user);
       } else {
-        throw Exception(response['message'] ?? 'Cập nhật thông tin thất bại');
+        return ApiResponse.error(response['message'] ?? 'Cập nhật thông tin thất bại');
       }
     } catch (e) {
-      throw Exception('Cập nhật thông tin thất bại: $e');
+      return ApiResponse.error('Cập nhật thông tin thất bại: $e');
     }
   }
 } 
