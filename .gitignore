@@ -120,3 +120,6 @@ coverage/
 firebase_options.dart
 google-services.json
 GoogleService-Info.plist
+
+# Dependency lock file
+pubspec.lock
